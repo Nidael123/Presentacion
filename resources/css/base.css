@@ -21,6 +21,8 @@ body{
 	"contact";
 }
 
+
+
 .nav{
 	grid-area: nav;
 	background: #a1cdf1;
@@ -33,6 +35,11 @@ body{
 .nav > ul > li{
 	
 }
+
+
+
+
+
 .carrucel{
 	grid-area: carrucel;
 	background: blue;
