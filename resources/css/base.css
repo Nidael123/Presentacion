@@ -43,10 +43,12 @@ body{
 .carrucel{
 	grid-area: carrucel;
 	background: blue;
+	display: flex;
 }
 .carrucel > img{
 	width: 600px;
-	height: 600px;
+	height: 400px;
+	justify-items: center;
 }
 .know{
 	grid-area: know;
