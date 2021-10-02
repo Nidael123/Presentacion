@@ -6,59 +6,43 @@
 }
 
 body{
-	background: #685a9d;
+	background: #A1CDF1;
 }
 
-.grid{
-	display: grid;
-	grid-template-rows: 100px 600px 400px 400px 75px;
-	gap: 10px;
-	grid-template-areas: 
-	"nav"
-	"carrucel"
-	"know"
-	"proyect"
-	"contact";
+.caja1{
+	background: #78e0dc;
+	margin: 50px 25px;
+}
+.caja2{
+	background: #78e0dc;
+	margin: 50px 25px;
+}
+.superior{
+	background: #d496a7;
+	width: 300px;
+	height: 500px
+}
+.inferior{
+	background: #9d695a;
+	width: 200px;
+	height: 500px;
 }
 
+@media (max-width: 800px){
 
-
-.nav{
-	grid-area: nav;
-	background: #a1cdf1;
-	display: inline-block;
-}
-.nav > ul > li{
-	display: inline-block;
-	margin-left: 35px;
-}
-.nav > ul > li{
-	
-}
-
-
-
-
-
-.carrucel{
-	grid-area: carrucel;
-	background: blue;
-	display: flex;
-}
-.carrucel > img{
-	width: 600px;
-	height: 400px;
-	justify-items: center;
-}
-.know{
-	grid-area: know;
-	background: blue;
-}
-.proyect{
-	grid-area: proyect;
-	background: blue;
-}
-.contact{
-	grid-area: contact;
-	background: blue;
+	.superior{
+		background: #d496a7;
+		width: auto;
+		height: 600px;
+		margin:20px;
+	}
+	.inferior{
+		background: #9d695a;
+		width: auto;
+		height: 600px;
+		margin:20px;
+	}
+	h1,h2,p{
+		text-align: center;
+	}
 }
